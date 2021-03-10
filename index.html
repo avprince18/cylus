@@ -9,53 +9,16 @@
 </head>
 
 <body>
-    <div id="root"></div>
-    <!--React-->
-<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js" ></script>
-<!--React Dom-->
-<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" ></script>
-<!--Babel-->
-<script crossorigin src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <h1>Cylus</h1>
+    <h2><em>Connecting You</em></h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa atque facilis quae sint natus quisquam debitis impedit enim? Explicabo cum nesciunt impedit consequatur minus sed aperiam nemo culpa dolorem soluta!</p>
 
-<script type="text/babel">
-    function Movie(props) {
-        return (
-            <div className="Movie">
-                <img src={props.poster} alt="poster"/>
-                <h1>{props.title} was released in </h1>
-                <h2>{props.year}</h2>
-            </div>
-        )
-    }
-
-    let element = (
-        <div>
-            <Movie
-                poster = "https://m.media-amazon.com/images/M/MV5BMTQ2ODFlMDAtNzdhOC00ZDYzLWE3YTMtNDU4ZGFmZmJmYTczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg"
-                title="E.T."
-                year="1982"
-            />
-            <Movie
-                poster="https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_UX182_CR0,0,182,268_AL_.jpg"
-                title="Gone Girl"
-                year="2014"
-            />
-            <Movie
-                poster="https://m.media-amazon.com/images/M/MV5BYmIxZWUyOTUtZTFmNi00ZWU2LWEyNDgtN2QxZjIwOTYzY2Y4XkEyXkFqcGdeQXVyMjUwMzI2Nzk@._V1_UX182_CR0,0,182,268_AL_.jpg"
-                title="Electric Addiction"
-                year="2020"
-            />
-                
-        </div>
-    )
-
-    ReactDOM.render (
-        element, 
-        document.getElementById("root")
-    )
-
-</script>
-
+    <h2>About</h2>
+    <h2>Store</h2>
+    <input type="text">
+    <h2>Search</h2>
+    <h2>Images</h2>
+    <h2>Apps</h2>
     
 </body>
 </html>
